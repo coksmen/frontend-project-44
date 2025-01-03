@@ -1,4 +1,4 @@
-install: #Установка зависимостей
+ install: #Установка зависимостей
 	npm ci
 brain-games:
 	node bin/brain-games.js
