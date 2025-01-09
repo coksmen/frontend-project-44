@@ -7,7 +7,7 @@ const name = readlineSync.question('May I have your name?: ');
 
 console.log(`Hello, ${name}!`);
 
-console.log (description);
+console.log(description);
 
 for (let i = 0; i < countRound; i++) {
     const [question, currectAnswer] = getQuestionAdAnswer();
