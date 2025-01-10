@@ -18,7 +18,7 @@ for (let i = 0; i < countRound; i++) {
             console.log('Correct!');
         } else {
             console.log(`'${answer}' is wrong answer ;(. Correct answer was ${currectAnswer}.`);
-            console.log(`Let's try again, ${name}`);
+            console.log(`Let's try again, ${name}!`);
             return;
         }
     }
