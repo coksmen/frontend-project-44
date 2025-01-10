@@ -30,7 +30,7 @@ const getQuestionAdAnswer = () => {
     const get1Integer = randomInteger(1, 100);
     const get2Integer = randomInteger(1, 100);
     const operator = getRandomOperators ();
-    const question = `${get1Integer}${operator}${get2Integer}`;
+    const question = `${get1Integer} ${operator} ${get2Integer}`;
     const currectAnswer = calculate(get1Integer, get2Integer, operator).toString();
     return [question, currectAnswer];
 };
