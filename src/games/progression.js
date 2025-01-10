@@ -21,12 +21,13 @@ const getQuestionAdAnswer = () => {
     const preliminaryCurrectAnswer = progression[missingIndex];
     const currectAnswer = preliminaryCurrectAnswer.toString(); 
     progression[missingIndex] = "..";
-    const question = progression;
+    const question = progression.join(' ');
 
-    return [question,currectAnswer];
+    return [question, currectAnswer];
 };
 
 
 export default () => {
     progressionGame(description, getQuestionAdAnswer)
 };
+
