@@ -11,16 +11,16 @@ console.log(description);
 
 for (let i = 0; i < countRound; i++) {
     const [question, currectAnswer] = getQuestionAdAnswer();
-    console.log(`Question: ${question}`); //15
+    console.log(`Question: ${question}`); 
 
-    const answer = readlineSync.question('Your answer: '); //no
+    const answer = readlineSync.question('Your answer: '); 
         if (answer === currectAnswer) {
             console.log('Correct!');
         } else {
             console.log(`'${answer}' is wrong answer ;(. Correct answer was ${currectAnswer}.`);
             console.log(`Let's try again, ${name}!`);
             return;
-        }
-    }
+        };
+    };
     console.log(`Congratulations, ${name}!`);
 };

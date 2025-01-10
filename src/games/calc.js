@@ -1,6 +1,6 @@
 import twoGames from '../index.js';
 
-const description = 'What is the result of the expression?'
+const description = 'What is the result of the expression?';
 
 const getRandomOperators = () => {
 const operators = ['*' , '+', '-'];
@@ -23,7 +23,7 @@ const calculate = (num1, num2, operator) => {
             return num1 * num2;
         default:
             return null;
-    }
+    };
 };
 
 const getQuestionAdAnswer = () => {
@@ -36,5 +36,5 @@ const getQuestionAdAnswer = () => {
 };
 
 export default () => {
-twoGames(description, getQuestionAdAnswer)
+twoGames(description, getQuestionAdAnswer);
 };
