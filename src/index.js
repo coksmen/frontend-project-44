@@ -20,7 +20,7 @@ for (let i = 0; i < countRound; i++) {
             console.log(`'${answer}' is wrong answer ;(. Correct answer was ${currectAnswer}.`);
             console.log(`Let's try again, ${name}!`);
             return;
-        };
-    };
+        }
+    }
     console.log(`Congratulations, ${name}!`);
 };
