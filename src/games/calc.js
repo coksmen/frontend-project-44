@@ -3,7 +3,7 @@ import twoGames from '../index.js';
 const description = 'What is the result of the expression?';
 
 const getRandomOperators = () => {
-const operators = ['*' , '+', '-'];
+const operators = ['*','+','-'];
 const randomIndex = Math.floor(Math.random() * operators.length);
 return operators[randomIndex];
 };
