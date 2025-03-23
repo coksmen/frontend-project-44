@@ -4,7 +4,7 @@ const description = 'What number is missing in the progression?';
 
 const generateArithmeticProgression = (length, start, step) => {
   const progression = [];
-  for (let i = 0; i < length; i++) {
+  for (let i = 0; i < length; i += 1) {
     progression.push(start + i * step);
   }
   return progression;

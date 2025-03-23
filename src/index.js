@@ -9,7 +9,7 @@ export default (description, getQuestionAdAnswer) => {
 
   console.log(description);
 
-  for (let i = 0; i < countRound; i++) {
+  for (let i = 0; i < countRound; i += 1) {
     const [question, currectAnswer] = getQuestionAdAnswer();
     console.log(`Question: ${question}`);
 
